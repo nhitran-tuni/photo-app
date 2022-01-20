@@ -1,0 +1,38 @@
+.user-basic-info {
+    display: flex;
+    flex-direction: column;
+    background-color: #f8f9fa;
+    height: fit-content;
+    padding: 0 20px 20px 20px;
+    border-radius: 16px;
+    margin: 0 5% 5% 5%;
+}
+
+.user-basic-info h2 {
+    font-family: "Gill Sans", sans-serif;
+}
+
+.basic-info-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    margin: 5px 0 5px 0;
+}
+
+.info span {
+    font-family: "Gill Sans", sans-serif;
+}
+
+.info span a {
+    color: black;
+    text-decoration: none;
+}
+
+#basic-info-icon {
+    color: #495057;
+    margin-right: 10px;
+}

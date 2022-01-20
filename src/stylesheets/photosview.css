@@ -1,0 +1,10 @@
+.photos-display {
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 150px);
+    justify-content: space-around;
+    align-items: center;
+    width: 70%;
+    height: 100%;
+    grid-gap: 15px;
+}

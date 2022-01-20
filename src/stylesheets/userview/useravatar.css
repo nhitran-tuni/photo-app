@@ -1,0 +1,46 @@
+.user-ava {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 5%;
+    background-color: #f8f9fa;
+    height: fit-content;
+    padding: 20px;
+    border-radius: 16px;
+}
+
+.ava-icon-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 150px;
+    border: 2px solid black;
+    border-radius: 50%;
+    background-color: white;
+}
+
+#ava-icon {
+    width: 80%;
+    height: 80%;
+}
+
+.user-name-container {
+    font-family: "Gill Sans", sans-serif;
+    margin-left: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.basic-info {
+    display: flex;
+    align-items: center;
+}
+
+.basic-info h4 {
+    color: #6c757d;
+    margin-left: 5px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
